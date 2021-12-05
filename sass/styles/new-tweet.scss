@@ -1,0 +1,53 @@
+.new-tweet {
+    margin-top: 1em;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5em;
+  }
+  
+  #tweet-text {
+    border: none;
+    border-bottom: 0.25em solid #545149;
+    background-color: #f4f1ec;
+    height: 1,5em;
+    margin-top: 0.5em;
+  }
+  
+  #tweet-text:focus-visible {
+    outline: none;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form button {
+    font-family: "Bungee", "sans-serif";
+    color: white;
+    background-color: #4056A1;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  form button:hover {
+    background: red;
+  }
+  
+  
+  .counter {
+    font-family: "Bungee", "sans-serif";
+  }
+  
+  .invalid {
+    color: red;
+  }

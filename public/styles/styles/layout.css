@@ -3,9 +3,10 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
- html {
+html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -13,44 +14,40 @@
 /*
  * Global layout stuff
  */
-
 body {
   color: rgba(0, 0, 0, 0.733);
   background-color: #FFF5EE;
   font-size: 24px;
-  font-family: 'Bungee', cursive;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Bungee", cursive;
+  font-family: "Source Sans Pro", sans-serif;
   display: flex;
   flex-direction: column;
-  
 }
 
 /*
 * Additional CSS can be defined below or in other CSS files, as per instructions
 */
-
 main {
   width: 90%;
   background-color: #FFF5EE;
   display: flex;
   flex-direction: column;
   align-self: center;
-  
- }
+}
 
- /* Desktop layout. Automatically scales to smaller screens with meta tag "viewport" in index.html */
- @media only screen and (min-width: 1024px) {
-	body {
-		display: flex;
-		flex-direction: row;
-	}
+/* Desktop layout. Automatically scales to smaller screens with meta tag "viewport" in index.html */
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
 
   main {
-  width: 50%;
-  margin: 2%;
-  justify-content: center;
-  align-items: center;
-	}
+    width: 50%;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+  }
 
   form {
     margin-top: 15%;
@@ -61,7 +58,6 @@ main {
     max-width: 40%;
     max-height: 30%;
     margin: 17% 1% 10% 3%;
-
   }
 
   section#tweets-container {

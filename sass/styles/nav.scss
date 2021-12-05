@@ -1,0 +1,35 @@
+nav {
+    height: 120px;
+    width: 100%;
+    background-color: #eb8c4d;
+    color: #FFFFFF;
+    padding: 1.5em;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    
+    nav div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tweeter {
+      font-family: "Bungee", "sans-serif";
+    }
+  
+  
+    @keyframes bounce {
+      from { top: 65px; }
+      to { top: 68px; }
+      
+    }
+    nav .fa-angle-double-down {
+      color: red;
+      position: absolute;
+      right: 7rem;
+      animation: bounce 1s infinite;
+    }
+
+}
