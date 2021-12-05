@@ -17,16 +17,16 @@ This repository is the starter code for the project: Students will fork and clon
 - Express
 - Node 5.10.x or above
 
-##Final Product
+Final Product
 ![Tweeter Screenshot 1](https://github.com/shamshameed1/lhl-tweeter/blob/master/docs/home-page.png?raw=true)
 
-##Message when tweet is too long
+Message when tweet is too long
 ![Tweeter Screenshot 2](https://github.com/shamshameed1/lhl-tweeter/blob/master/docs/long-tweet.png?raw=true)
 
-##Message when you are tweeting nothing
+Message when you are tweeting nothing
 ![Tweeter Screenshot 2](https://github.com/shamshameed1/lhl-tweeter/blob/master/docs/empty-tweet.png?raw=true)
 
-##New tweet added
+New tweet added
 ![Tweeter Screenshot 2](https://github.com/shamshameed1/lhl-tweeter/blob/master/docs/new-tweet.png?raw=true)
 
 
